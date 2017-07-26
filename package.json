@@ -1,7 +1,7 @@
 {
   "name": "customstandard",
   "description": "All the goodness of `feross/standard` with customizable rules",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": {
     "email": "unibtc@gmail.com",
     "name": "John Sayo",
