@@ -2,7 +2,7 @@ var fs = require('fs');
 var path = require('path');
 var opts = require('./options.js');
 
-function opts() {
+function customOpts() {
   var eslintrc = fs.readFileSync(opts.eslintConfig.configFile, {encoding: 'utf8'});
   var dir = path.dirname(opts.eslintConfig.configFile);
   var tempdir = path.resolve(dir, 'custom_eslint.json');
@@ -15,4 +15,4 @@ function opts() {
   return opts;
 }
 
-module.exports = opts();
+module.exports = customOpts();
