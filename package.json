@@ -1,17 +1,17 @@
 {
-  "name": "semistandard",
-  "description": "All the goodness of `feross/standard` with semicolons sprinkled on top.",
+  "name": "customstandard",
+  "description": "All the goodness of `feross/standard` with customizable rules",
   "version": "1.0.0",
   "author": {
-    "email": "flettre@gmail.com",
-    "name": "Dan Flettre",
-    "url": "http://twitter.com/flettre"
+    "email": "unibtc@gmail.com",
+    "name": "John Sayo",
+    "url": "https://github.com/uniibu"
   },
   "bin": {
-    "semistandard": "./bin/cmd.js"
+    "customstandard": "./bin/cmd.js"
   },
   "bugs": {
-    "url": "https://github.com/Flet/semistandard/issues"
+    "url": "https://github.com/uniibu/customstandard/issues"
   },
   "dependencies": {
     "eslint": "~3.19.0",
@@ -34,9 +34,9 @@
     "tape": "^4.6.3",
     "xtend": "^4.0.0"
   },
-  "homepage": "https://github.com/Flet/semistandard",
+  "homepage": "https://github.com/uniibu/customstandard",
   "keywords": [
-    "JavaScript Standard Style",
+    "JavaScript Custom Standard Style",
     "bikeshed",
     "check",
     "checker",
@@ -54,6 +54,8 @@
     "policy",
     "quality",
     "semicolon",
+    "custom",
+    "custom style",
     "simple",
     "standard",
     "standard style",
@@ -66,7 +68,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Flet/semistandard.git"
+    "url": "https://github.com/uniibu/customstandard.git"
   },
   "scripts": {
     "test": "standard && tape test/*.js"
