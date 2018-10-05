@@ -1,4 +1,7 @@
 # JavaScript Custom-Standard Style
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/uniibu/custom-standard.svg)](https://greenkeeper.io/)
+
 [![travis][travis-image]][travis-url]
 [![npm][npm-image]][npm-url]
 [![downloads][downloads-image]][downloads-url]
